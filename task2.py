@@ -16,11 +16,10 @@ Access granted
 Access denied
 """
 
-
+username= input("admin")
 if "admin" in username:
-  print("Enter password")
+  print("12345password")
 else:
   print("invalid user")
 
-if "12345password" in password:
-  print("Access granted")
+
